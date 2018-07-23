@@ -16,3 +16,4 @@ insert into Rond values(5,'purple.png');
 insert into Rond values(6,'grey.png');
 	
 create view caseColor as select mouvement.idCase,Rond.color from mouvement join rond on rond.id=mouvement.color;
+Create view test as select * from Rond;
